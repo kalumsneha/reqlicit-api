@@ -1,4 +1,4 @@
-package com.ontariotechu.fse.reqlicit_api;
+package com.ontariotechu.fse.reqlicit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

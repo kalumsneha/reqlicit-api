@@ -1,4 +1,4 @@
-package com.ontariotechu.fse.reqlicit_api;
+package com.ontariotechu.fse.reqlicit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

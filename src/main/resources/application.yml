@@ -1,0 +1,19 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /reqlicit
+spring:
+  application:
+    name: reqlicit-api
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://reqlicit-db.c3mm0kmcmilo.us-east-2.rds.amazonaws.com:5432/reqlicit_db
+    username: postgres
+    password: Password12
