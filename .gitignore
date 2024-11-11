@@ -37,3 +37,4 @@ build/
 # Mac
 .DS_Store
 
+docker/**.jar

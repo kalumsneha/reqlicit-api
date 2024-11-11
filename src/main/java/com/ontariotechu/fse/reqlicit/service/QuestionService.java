@@ -1,7 +1,6 @@
 package com.ontariotechu.fse.reqlicit.service;
 
 import com.ontariotechu.fse.reqlicit.model.Question;
-import com.ontariotechu.fse.reqlicit.model.User;
 
 import java.util.List;
 import java.util.Optional;

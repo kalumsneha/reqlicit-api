@@ -1,7 +1,6 @@
 package com.ontariotechu.fse.reqlicit.service.impl;
 
 import com.ontariotechu.fse.reqlicit.exception.type.NotFoundException;
-import com.ontariotechu.fse.reqlicit.model.MedicalPractitioner;
 import com.ontariotechu.fse.reqlicit.model.Patient;
 import com.ontariotechu.fse.reqlicit.model.User;
 import com.ontariotechu.fse.reqlicit.repository.PatientRepository;

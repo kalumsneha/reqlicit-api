@@ -5,7 +5,6 @@ import com.ontariotechu.fse.reqlicit.exception.type.NotFoundException;
 import com.ontariotechu.fse.reqlicit.model.MedicalPractitioner;
 import com.ontariotechu.fse.reqlicit.model.Question;
 import com.ontariotechu.fse.reqlicit.model.QuestionOption;
-import com.ontariotechu.fse.reqlicit.model.User;
 import com.ontariotechu.fse.reqlicit.repository.QuestionOptionRepository;
 import com.ontariotechu.fse.reqlicit.repository.QuestionRepository;
 import com.ontariotechu.fse.reqlicit.service.MedicalPractitionerService;

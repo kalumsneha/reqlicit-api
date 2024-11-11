@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ontariotechu.fse.reqlicit.exception.type.NotFoundException;
 import com.ontariotechu.fse.reqlicit.model.MedicalPractitioner;
 import com.ontariotechu.fse.reqlicit.service.MedicalPractitionerService;
-import com.ontariotechu.fse.reqlicit.service.MedicalPractitionerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

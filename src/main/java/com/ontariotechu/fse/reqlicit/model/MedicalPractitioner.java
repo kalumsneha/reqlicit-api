@@ -13,8 +13,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import java.util.Base64;
-
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "medical_practitioners")
