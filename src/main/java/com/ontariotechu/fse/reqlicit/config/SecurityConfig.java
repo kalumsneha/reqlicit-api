@@ -32,8 +32,8 @@ public class SecurityConfig {
 
         http.csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((authorize)->{
-                    authorize.requestMatchers("api/v1/**").permitAll();
-                    authorize.anyRequest().authenticated();
+                    authorize.requestMatchers( "/docs/**").permitAll()
+                            .anyRequest().authenticated();
                 }).httpBasic(Customizer.withDefaults())
                 .sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS));

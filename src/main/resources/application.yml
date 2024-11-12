@@ -19,3 +19,10 @@ spring:
     url: jdbc:postgresql://localhost:5432/reqlicit_db
     username: reqlicit_admin
     password: Password12
+
+springdoc:
+  api-docs:
+    path: /docs/api-docs
+  swagger-ui:
+    path: /docs/swagger-ui-custom.html
+    operationsSorter: method
